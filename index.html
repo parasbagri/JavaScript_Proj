@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch_Color</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="navBar">
+      <div class="sub-nav">
+        <div class="left">
+          <button>
+            <a href="/" target="_blank">HOME</a>
+          </button>
+        </div>
+        <div class="right">
+          <button>
+            <a href="/" target="_blank">Creativity</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="conatiner">
+      <div class="sub-container">
+        <div class="stack-images">
+          <div class="multi-stage" id="mulStage">
+            <img id="image" src="audio/jiji.gif" alt="">
+          </div>
+          <div class="multi-stage">
+            <img id="image2" src="audio/gaddari.gif" alt="">
+          </div>
+          <div class="multi-stage">
+            <img id="image3" src="audio/elvis-yadav.gif" alt="">
+          </div>
+        </div>
+        <h2 class="heading"> Click On These Circles </h2>
+        <div class="boxs">
+          <div onclick="playA()" class="box-1 box" id="bo-1"></div>
+          <div class="box-2 box" id="bo-2"></div>
+          <div class="box-3 box" id="bo-3"></div>
+          <!-- <div class="box-4 box" id="bo-4"></div> -->
+        </div>
+        <h2 class="footer-text"></h2>
+      </div>
+      <audio id="myAudio">
+        <!-- audio1 -->
+        <source src="audio/Hacker Hai Bhai Hacker ! Ajju Bhai ! Meme.mp3" type="audio/mpeg">
+        <source src="audio/Hacker Hai Bhai Hacker ! Ajju Bhai ! Meme.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+      </audio>
+      <!-- audio2 -->
+      <audio id="myAudio2">
+        <source src="audio/Laal Hai Pura Thela Laal Hai - Meme ! Funny.mp3" type="audio/mpeg">
+        <source src="audio/Laal Hai Pura Thela Laal Hai - Meme ! Funny.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+      </audio>
+      <!-- audio3 -->
+      <audio id="myAudio3">
+        <source src="audio/Elvish Bhai - Meme ! Comedy.mp3" type="audio/mpeg">
+        <source src="audio/Elvish Bhai - Meme ! Comedy.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+      </audio>
+      <script src="script.js"></script>
+  </body>
+</html>
